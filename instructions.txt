@@ -1,0 +1,23 @@
+Step 1: Create a Directory on the Desktop
+
+Step 2: Change the directory of the project/practical using the following command(From CMD/Terminal):
+Command: cd <directory name>
+
+Step 3: Open VS Code in the project/practical directory and the files required as per the practical.
+
+Step 4: Using CMD/VS Code Terminal, Create Virtual Environment using the following steps:
+Command 1: pip install virtualenv
+
+Once "virtualenv" is installed, Run the second command in terminal:
+Command 2: python -m venv .venv (This will create the directory of the virtual environment)
+
+Once virtual environment is created, Activate it using the command:
+Command 3: .venv\Scripts\activate
+
+After running this command, you will see the prompt in the terminal like this: (.venv)
+
+Step 4: After Activating the virtual environment, you can install the necessary python packages that will be required by the practical to run.
+
+Step 5. Make sure before running the program, always check if the virtual environment is not activated, then activate it. Then run the program.
+
+
