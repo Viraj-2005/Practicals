@@ -1,7 +1,7 @@
 import threading
 
-a= 20
-b= 50
+a = 20
+b = 50
 
 condition = threading.Condition()
 ready = False
@@ -25,8 +25,8 @@ def thread2():
             condition.wait()
 
             temp = a
-            a= b
-            b= temp
+            a = b
+            b = temp
 
             print("\nAfter Swapping:")
             print("a =", a)
