@@ -1,0 +1,10 @@
+{
+  "name": "cloudnative-docker-practical",
+  "version": "1.0.0",
+  "description": "Simple Docker practical application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
